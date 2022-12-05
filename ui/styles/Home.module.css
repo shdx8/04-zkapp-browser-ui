@@ -1,32 +1,33 @@
+
 .container {
   padding: 0 2rem;
+  background: linear-gradient(45deg, #4568dc 0%, #b06ab3 100%);
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  min-height: 96.7vh;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  
 }
 
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  padding: 1rem 0;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
+
 
 .title a {
   color: #0070f3;
@@ -103,10 +104,610 @@
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.homepage {
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	width: 900px;
+	height: 600px;
+	transform: scale(1);
 }
+
+.homepageImg {
+	display: flex;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../images/homeContainer.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 450px;
+	height: 550px;
+}
+
+.banner {
+	display: block;
+	background-image: url("../images/minaWordmark.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 250px;
+	height: 100px;
+	position: absolute;
+	left: 340px;
+	top: 150px;
+}
+
+
+.connectBtn {
+	display: block;
+	background-image: url("../images/connect1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 140px;
+	height: 70px;
+	position: absolute;
+	left: 380px;
+	top: 400px;
+}
+
+.connectBtn:hover {
+	display: block;
+	background-image: url("../images/connect2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 140px;
+	height: 70px;
+	position: absolute;
+	left: 378px;
+	top: 402px;
+}
+
+.connectBtn:active {
+	display: block;
+	background-image: url("../images/connect3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 140px;
+	height: 70px;
+	position: absolute;
+	left: 378px;
+	top: 402px;
+}
+
+.loading {
+	display: block;
+	background-image: url("../images/loading.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 350px;
+	height: 300px;
+	position: absolute;
+	left: 240px;
+	top: 50px;
+}
+
+.getLoading {
+	display: block;
+	background-image: url("../images/loading.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 280px;
+	height: 280px;
+	position: absolute;
+	left: 250px;
+	top: 150px;
+}
+
+.sendLoading {
+	display: block;
+	background-image: url("../images/loading.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 350px;
+	height: 300px;
+	position: absolute;
+	left: 240px;
+	top: 50px;
+}
+
+.sendCheck {
+	display: block;
+	background-image: url("../images/sent.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 150px;
+	height: 75px;
+	position: absolute;
+	left: 380px;
+	top: 325px;
+}
+
+.sendDone {
+	display: block;
+	background-image: url("../images/c.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 380px;
+	top: 80px;
+}
+
+.caution {
+	display: block;
+	background-image: url("../images/x.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 370px;
+	top: 100px;
+}
+
+.succes {
+	display: block;
+	background-image: url("../images/c.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	left: 370px;
+	top: 120px;
+}
+
+.statusTxt {
+	display: block;
+	position: absolute;
+	left: 350px;
+	top: 300px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+.checkWallet {
+	display: block;
+	position: absolute;
+	left: 400px;
+	top: 300px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+.noWallet {
+	display: block;
+	position: absolute;
+	left: 390px;
+	top: 340px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+.connectkWallet {
+	display: block;
+	position: absolute;
+	left: 380px;
+	top: 300px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+.walletConnected {
+	display: block;
+	position: absolute;
+	left: 390px;
+	top: 300px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.statusSendTxt {
+	display: block;
+	position: absolute;
+	left: 370px;
+	top: 320px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+.creatingProof {
+	display: block;
+	position: absolute;
+	left: 400px;
+	top: 320px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.walletLink {
+	display: block;
+	position: absolute;
+	left: 390px;
+	top: 400px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.walletTxt {
+	display: block;
+	position: absolute;
+	left: 330px;
+	top: 380px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.faucetTxt {
+	display: block;
+	position: absolute;
+	left: 215px;
+	top: 370px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.faucetHere {
+	display: block;
+	position: absolute;
+	left: 390px;
+	top: 370px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.backNoAccount {
+	display: block;
+	background-image: url("../images/back1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 73px;
+	height: 46px;
+	position: absolute;
+	left: 240px;
+	top: 50px;
+}
+
+.backNoAccount:hover {
+	display: block;
+	background-image: url("../images/back2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 73px;
+	height: 46px;
+	position: absolute;
+	left: 240px;
+	top: 50px;
+}
+
+.backNoWallet {
+	display: block;
+	background-image: url("../images/back1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 73px;
+	height: 46px;
+	position: absolute;
+	left: 240px;
+	top: 50px;
+}
+
+.backNoWallet:hover {
+	display: block;
+	background-image: url("../images/back2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 73px;
+	height: 46px;
+	position: absolute;
+	left: 240px;
+	top: 50px;
+}
+
+.sendBtn {
+	display: block;
+	background-image: url("../images/send1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 170px;
+	height: 75px;
+	position: absolute;
+	left: 250px;
+	top: 430px;
+}
+
+.sendBtn:hover {
+	display: block;
+	background-image: url("../images/send2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 170px;
+	height: 75px;
+	position: absolute;
+	left: 250px;
+	top: 430px;
+}
+
+.sendBtn:active {
+	display: block;
+	background-image: url("../images/send3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 170px;
+	height: 75px;
+	position: absolute;
+	left: 250px;
+	top: 430px;
+}
+
+.sendBtnDisable {
+	display: block;
+	background-image: url("../images/send3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 170px;
+	height: 75px;
+	position: absolute;
+	left: 250px;
+	top: 430px;
+}
+
+.getBtn {
+	display: block;
+	background-image: url("../images/state1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 170px;
+	height: 75px;
+	position: absolute;
+	left: 480px;
+	top: 430px;
+}
+
+.getBtn:hover {
+	display: block;
+	background-image: url("../images/state2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 170px;
+	height: 75px;
+	position: absolute;
+	left: 480px;
+	top: 430px;
+}
+
+.getBtn:active {
+	display: block;
+	background-image: url("../images/state3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 170px;
+	height: 75px;
+	position: absolute;
+	left: 480px;
+	top: 430px;
+}
+
+.getBtnDisable {
+	display: block;
+	background-image: url("../images/state3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 170px;
+	height: 75px;
+	position: absolute;
+	left: 480px;
+	top: 430px;
+}
+
+.txtState {
+	display: block;
+	position: absolute;
+	left: 330px;
+	top: 210px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.numState {
+	display: block;
+	position: absolute;
+	left: 360px;
+	top: 200px;
+	color: white;
+	font-size: 80px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.txtAddrs {
+	display: block;
+	position: absolute;
+	left: 250px;
+	top: 330px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.getscreen{
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	width: 900px;
+	height: 600px;
+}
+
+
+.getscreenImg {
+	display: flex;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../images/homeContainer.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 450px;
+	height: 550px;
+	left: 225px;
+	top: 25px;
+}
+
+.sendscreen{
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	width: 900px;
+	height: 600px;
+}
+
+
+
+.sendscreenImg {
+	display: block;
+	display: flex;
+	background-image: url("../images/homeContainer.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 450px;
+	height: 550px;
+	left: 225px;
+	top: 25px;
+}
+
+
+.closeGet {
+	display: block;
+	background-image: url("../images/back1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 73px;
+	height: 46px;
+	position: absolute;
+	left: 240px;
+	top: 50px;
+}
+
+.closeGet:hover {
+	display: block;
+	background-image: url("../images/back2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 73px;
+	height: 46px;
+	position: absolute;
+	left: 240px;
+	top: 50px;
+}
+
+.closeSend {
+	display: block;
+	background-image: url("../images/back1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 73px;
+	height: 46px;
+	position: absolute;
+	left: 240px;
+	top: 50px;
+}
+
+.closeSend:hover {
+	display: block;
+	background-image: url("../images/back2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 73px;
+	height: 46px;
+	position: absolute;
+	left: 240px;
+	top: 50px;
+}
+
+.twitter {
+	display: block;
+	background-image: url("../images/twitter.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: 380px;
+	top: 600px;
+}
+
+.discord {
+	display: block;
+	background-image: url("../images/discord.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: 430px;
+	top: 600px;
+}
+
+.github {
+	display: block;
+	background-image: url("../images/github.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: 480px;
+	top: 600px;
+}
+
 
 @media (max-width: 600px) {
   .grid {
@@ -124,6 +725,7 @@
     background: #111;
   }
   .logo img {
-    filter: invert(1);
   }
+   
+  
 }
